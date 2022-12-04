@@ -3,12 +3,7 @@ class SearchAnalyticsController < ApplicationController
 
   # GET /search_analytics or /search_analytics.json
   def index
-    search_term = params[:query]
-    if search_term.present?
-      @search_analytics = SearchAnalytic.where(value: search_term)
-    else
       @search_analytics = SearchAnalytic.all    
-    end
   end
 
   # GET /search_analytics/1 or /search_analytics/1.json
