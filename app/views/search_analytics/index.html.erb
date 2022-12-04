@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Search analytics</h1>
+
+<div id="search_analytics">
+  <% @search_analytics.each do |search_analytic| %>
+    <%= render search_analytic %>
+    <p>
+      <%= link_to "Show this search analytic", search_analytic %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New search analytic", new_search_analytic_path %>
