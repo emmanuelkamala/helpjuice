@@ -25,18 +25,24 @@ Better to over-engineer than to be lazy-engineer. Most importantly is to finish 
 	User searches (because it’s instant it records it all):
 
 (1st (random) user searches for)
-#### What is 
-#### What is a 
-#### What is a good car?  
+<ul>
+<li>What is </li>
+<li>What is a </li>
+<li>What is a good car?</li>
+</ul>
 
 (2nd (random) user searches for:)
-#### How is
-#### Howis emil hajric 
-#### How is emil hajric doing?  
+<ul>
+<li>How is</li>
+<li>Howis emil hajric </li>
+<li>How is emil hajric doing?  </li>
+</ul>
 
 Your search engine only records: 
-#### What is a good car
-#### How is emil hajric doing? 
+<ul>
+<li>What is a good car</li>
+<li>How is emil hajric doing? </li>
+</ul>
 (And removes the rest because it was an incomplete search )
 
 
