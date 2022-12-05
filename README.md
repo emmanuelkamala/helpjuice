@@ -25,32 +25,32 @@ Better to over-engineer than to be lazy-engineer. Most importantly is to finish 
 	User searches (because it’s instant it records it all):
 
 (1st (random) user searches for)
-#### What is <br />
-#### What is a <br />
-#### What is a good car?  <br />
+#### What is 
+#### What is a 
+#### What is a good car?  
 
 (2nd (random) user searches for:)
-#### How is<br />
-#### Howis emil hajric <br />
-#### How is emil hajric doing?  <br />
+#### How is
+#### Howis emil hajric 
+#### How is emil hajric doing?  
 
 Your search engine only records: 
-#### What is a good car<br />
-#### How is emil hajric doing? <br />
+#### What is a good car
+#### How is emil hajric doing? 
 (And removes the rest because it was an incomplete search )
 
 
 <strong>BAD example</strong>
 
 	User searches (because it’s instant it records it all):
-#### hello<br />
-#### Hello world<br />
-#### Hello world how are you?<br />
+#### hello
+#### Hello world
+#### Hello world how are you?
 
 Your search engine only records: 
-#### hello <br />
-#### Hello world <br />
-#### Hello world how are you?<br />
+#### hello 
+#### Hello world 
+#### Hello world how are you?
 (you didn’t filter what the user searched for)
 
 
