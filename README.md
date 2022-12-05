@@ -74,6 +74,8 @@ Your search engine only records:
   <li>Communicate to Emil & the rest of the team in a professional manner once done.</li>
 </ul>
 
+![screenshot](https://github.com/emmanuelkamala/helpjuice/app/assets/images/screen.png)
+
 ## Built With
 
 - Ruby '~>3.1.1'
