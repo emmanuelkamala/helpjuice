@@ -43,22 +43,27 @@ Your search engine only records:
 <li>What is a good car</li>
 <li>How is emil hajric doing? </li>
 </ul>
-(And removes the rest because it was an incomplete search )
+(And removes the rest because it was an incomplete search ) <br />
+<br />
 
 
 <strong>BAD example</strong>
 
 	User searches (because it’s instant it records it all):
-#### hello
-#### Hello world
-#### Hello world how are you?
+  <ul>
+<li>hello</li>
+<li>Hello world</li>
+<li>Hello world how are you?</li>
+</ul>
 
 Your search engine only records: 
-#### hello 
-#### Hello world 
-#### Hello world how are you?
+<ul>
+<li>hello </li>
+<li>Hello world </li>
+<li>Hello world how are you?</li>
+</ul>
 (you didn’t filter what the user searched for)
-
+<br /> <br />
 
 <strong>Bonus points:</strong>
 <ul>
