@@ -74,7 +74,7 @@ Your search engine only records:
   <li>Communicate to Emil & the rest of the team in a professional manner once done.</li>
 </ul>
 
-![screenshot](https://github.com/emmanuelkamala/helpjuice/raw/development/docs/screen.png)
+![screenshot](https://github.com/emmanuelkamala/helpjuice/raw/main/docs/screen.png)
 
 ## Built With
 
