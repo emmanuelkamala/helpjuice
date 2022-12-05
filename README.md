@@ -90,7 +90,8 @@ Your search engine only records:
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-You need to have Ruby 3.1.1 and Rails 7.0.3 installed
+You need to have Ruby 3.1.1 and Rails 7.0.3 installed<br />
+Also, you need to have installed and configured <a href="https://git-scm.com/">Git</a> 
 
 
 ### Setup
@@ -98,16 +99,16 @@ You need to have Ruby 3.1.1 and Rails 7.0.3 installed
 # Install
 Clone the repo and then install the needed gems:<br />
  cd into the app's folder, then open terminal and run: <br />
- ## bundle install
+ <strong>bundle install</strong>
 
  # Create and Migrate the database:
 
- rails db:create <br />
- rails db:migrate
+ bin/rails db:create <br />
+ bin/rails db:migrate
 
  # Run the app in a local server:
 
- rails server
+ bin/rails server
 
 
 ## Authors
