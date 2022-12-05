@@ -10,4 +10,10 @@ RSpec.describe Article, type: :model do
     article = Article.new(description: nil)
     expect(article).to_not be_valid
   end
+
+
+  it "is valid with valid attributes" do
+    article = Article.create(title: "anything", description: "anything")
+    expect(article).to be_valid
+  end
 end
