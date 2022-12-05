@@ -3,7 +3,7 @@ class SearchAnalyticsController < ApplicationController
 
   # GET /search_analytics or /search_analytics.json
   def index
-      @search_analytics = SearchAnalytic.all    
+    @search_analytics = SearchAnalytic.all    
   end
 
   # GET /search_analytics/1 or /search_analytics/1.json

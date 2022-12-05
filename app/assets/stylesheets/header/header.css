@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(20, 125, 185);
+}
+
+.header__home {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.header__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__links-title {
+  padding-right: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.btn {
+  border: 1px solid rgb(36, 36, 126);
+  background-color: rgb(32, 32, 163);
+  padding: 10px;
+  outline: auto;
+  font-weight: bold;
+}

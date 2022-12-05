@@ -2,25 +2,20 @@
 
 <%= form_with(url: articles_path, method: :get, data: {turbo_frame: "articles", turbo_action: "advance"}) do |form| %>
 
-  <%= form.label :query, "Search by article title:", class: "block mb-2" %>
-  <div class="flex space-x-3">
-    <%= form.text_field :query, class: "py-3 px-4 rounded border ring-0 focus:ring-4 
-    focus:ring-orange-100 focus:shadow-none focus:border-orange-500 focus:outline-none" %>
+  <%= form.label :query, "Search by article title:", class: "search__title" %>
+  <div class="form">
+    <%= form.text_field :query, class: "form__input" %>
 
-    <%= form.submit 'Search', class: "px-4 py-3 font-medium
-    bg-orange-300 text-neutal-900 rounded flex items-center cursor-pointer 
-    hover:bg-orange-400 focus:ring-4 ring-0 focus:ring-orange-100" %>
+    <%= form.submit 'Search', class: "form__button" %>
   </div>
 <% end %>
 
 <h1>Articles</h1>
-
 <div id="articles">
   <% @articles.map do |article| %>
-  <div>
-    <%= link_to article.title, article_path(article) %>
-  </div>
+  <ul class="list">
+    <li class="list__links"><%= link_to article.title, article_path(article), class: "article__title" %></li>
+  </ul>
   <% end %>
 </div>
 
-<%= link_to "New article", new_article_path %>
