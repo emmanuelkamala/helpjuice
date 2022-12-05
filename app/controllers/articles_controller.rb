@@ -4,7 +4,7 @@ class ArticlesController < ApplicationController
   # GET /articles or /articles.json
   def index
     if params[:query].present?
-      @articles = Article.where("title LIKE ?", "%#{params[:query]}%")
+      @articles = Article.where("title LIKE ?", "%#{params[:query].capitalize}%")
     else
       @articles = Article.all
     end
