@@ -1,12 +1,11 @@
 <div id="<%= dom_id article %>">
-  <p>
+  <p class="article__show-title">
     <strong>Title:</strong>
     <%= link_to article.title, article_path(article) %>
   </p>
 
-  <p>
-    <strong>Description:</strong>
-    <%= link_to article.description, article_path(article) %>
+  <p class="article__show-description">
+    <%= article.description %>
   </p>
 
 </div>
