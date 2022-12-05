@@ -1,9 +1,11 @@
-<h1>New article</h1>
+<h1 class="article__edit">New article</h1>
 
-<%= render "form", article: @article %>
+<div class="article__show">
+  <%= render "form", article: @article %>
+<div>
 
 <br>
 
-<div>
-  <%= link_to "Back to articles", articles_path %>
+<div class="btn-group">
+  <%= link_to "Back to articles", articles_path, class: "btn-back" %>
 </div>

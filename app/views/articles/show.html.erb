@@ -1,11 +1,13 @@
 <p style="color: green"><%= notice %></p>
 
-<%= render @article %>
+<div class="article__show">
+  <%= render @article %>
+</div>
 
 <div class="btn-group">
-  <%= button_to "Edit this article", edit_article_path(@article) %>
-  <%= button_to "Back to articles", articles_path %>
+  <%= link_to "Edit this article", edit_article_path(@article), class: "btn-edit" %>
+  <%= link_to "Back to articles", articles_path, class: "btn-back" %>
 
-  <%= button_to "Destroy this article", @article, method: :delete %>
+  <%= button_to "Destroy this article", @article, method: :delete, class: "btn-danger" %>
 </div>
 

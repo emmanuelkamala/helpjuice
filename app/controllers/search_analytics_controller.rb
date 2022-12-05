@@ -61,7 +61,8 @@ class SearchAnalyticsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_search_analytic
-      @search_analytic = SearchAnalytic.find(params[:id])
+      # @search_analytic = SearchAnalytic.find(params[:id])
+      @search_analytic = Article.find(params[:query])
     end
 
     # Only allow a list of trusted parameters through.
